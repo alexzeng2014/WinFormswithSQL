@@ -1,0 +1,9 @@
+D:\Project\WinFormswithSQL\WinFormswithSQL\bin\Debug\WinFormswithSQL.exe.config
+D:\Project\WinFormswithSQL\WinFormswithSQL\bin\Debug\WinFormswithSQL.exe
+D:\Project\WinFormswithSQL\WinFormswithSQL\bin\Debug\WinFormswithSQL.pdb
+D:\Project\WinFormswithSQL\WinFormswithSQL\obj\Debug\WinFormswithSQL.csprojResolveAssemblyReference.cache
+D:\Project\WinFormswithSQL\WinFormswithSQL\obj\Debug\WinFormswithSQL.Form1.resources
+D:\Project\WinFormswithSQL\WinFormswithSQL\obj\Debug\WinFormswithSQL.Properties.Resources.resources
+D:\Project\WinFormswithSQL\WinFormswithSQL\obj\Debug\WinFormswithSQL.csproj.GenerateResource.Cache
+D:\Project\WinFormswithSQL\WinFormswithSQL\obj\Debug\WinFormswithSQL.exe
+D:\Project\WinFormswithSQL\WinFormswithSQL\obj\Debug\WinFormswithSQL.pdb
