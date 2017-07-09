@@ -35,7 +35,7 @@ grammar_cjkRuby: true
 我们将使用Entity Framework Designer作为Visual Studio的一部分来创建我们的模型。
 点击项目菜单 - >添加新项，选择ADO.NET 实体数据模型，取名为ProductModel
 
-![添加新项][4]
+![添加新项目][4]
 
 选择下一步：
 
@@ -45,6 +45,7 @@ grammar_cjkRuby: true
 选择从来自数据库的EF设计器，然后单击下一步
 
 ![选择数据连接][6]
+
 选择数据连接。
 
 ![选择数据库对象和设置][7]
@@ -431,19 +432,18 @@ namespace WinFormswithSQL
 ```
 运行结果：
 
-![enter description here][8]
+![运行程序][8]
 
 **源代码**
 
 WinFormswithSQL 的源代码我放到了Github上面：https://github.com/alexzeng2014/WinFormswithSQL
 
 
-
-[1]: ./images/1499434820187.jpg
-[2]: ./images/1499435488138.jpg
-[3]: ./images/1499437211930.jpg
-[4]: ./images/1499446038203.jpg
-[5]: ./images/1499449896268.jpg
-[6]: ./images/1499449928952.jpg
-[7]: ./images/1499450475957.jpg
-[8]: ./images/1499590510317.jpg
+[1]: http://7xvup9.com1.z0.glb.clouddn.com/xsj/1499606872484.jpg
+[2]: http://7xvup9.com1.z0.glb.clouddn.com/xsj/1499606930359.jpg
+[3]: http://7xvup9.com1.z0.glb.clouddn.com/xsj/1499606971169.jpg
+[4]: http://7xvup9.com1.z0.glb.clouddn.com/xsj/1499607003958.jpg
+[5]: http://7xvup9.com1.z0.glb.clouddn.com/xsj/1499607059273.jpg
+[6]: http://7xvup9.com1.z0.glb.clouddn.com/xsj/1499607122154.jpg
+[7]: http://7xvup9.com1.z0.glb.clouddn.com/xsj/1499607236653.jpg
+[8]: http://7xvup9.com1.z0.glb.clouddn.com/xsj/1499607259136.jpg
