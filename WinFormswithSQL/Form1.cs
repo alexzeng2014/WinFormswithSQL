@@ -21,24 +21,7 @@ namespace WinFormswithSQL
             timer1.Enabled = true;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            
-
-            if (counter >= 10)
-            {
-                // Exit loop code.
-                timer1.Enabled = false;
-                counter = 0;
-            }
-            else
-            {
-               //if (Access.edit_ctegory("ccoo1", "dddsa")) { 
-               // counter = counter + 1;
-               // label1.Text = "运行次数： " + counter.ToString();
-               // }
-            }
-        }
+       
         
 
         private void Form1_Load(object sender, EventArgs e)
@@ -46,7 +29,8 @@ namespace WinFormswithSQL
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
             if (counter >= 10)
             {
@@ -56,11 +40,13 @@ namespace WinFormswithSQL
             }
             else
             {
-                
-                
+                if (Access.edit_ctegory("ccoo1", "dddsa"))
+                {
+                    if (Access.edit_ctegory("ccoo1", "dddsa")) {
                     counter = counter + 1;
-                    label1.Text = "运行次数： " + Access.edit_ctegory("ccoo1","dddsa").ToString();
-                
+                    label1.Text = "运行次数： " + counter.ToString();
+                    }
+                }
             }
         }
     }

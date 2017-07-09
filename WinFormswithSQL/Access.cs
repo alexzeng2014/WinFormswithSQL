@@ -32,7 +32,7 @@ using System.Collections.Generic;
         /// <param name="CategoryID">ID</param>
         /// <param name="NAME">需要修改的名称</param>
         /// <returns></returns>
-        public static int edit_ctegory(string Category, string Name)
+        public static bool edit_ctegory(string Category, string Name)
         {
             DbCommand comm = DataACCess.CreateComand();
             comm.CommandText = "edit";
@@ -57,9 +57,9 @@ using System.Collections.Generic;
                 result = DataACCess.ExecuteNonQuery(comm);
             }
             catch { }
-            //result = 1即执行成功
-            return (result);
-        }
+        //result = 1即执行成功
+        return (result != -1);
+    }
 
     }
 

@@ -16,7 +16,7 @@ public class Utilities
     public static void SendMail(string from, string to, string subject, string body)
     {
         SmtpClient mailClient = new SmtpClient("smtp.qq.com");
-        mailClient.Credentials = new NetworkCredential("hi@alexzeng.net", "Ad18and163");
+        mailClient.Credentials = new NetworkCredential("hi@alexzeng.net", "*******");
         MailMessage mailMessage = new MailMessage(from, to, subject, body);
         mailClient.Send(mailMessage);
     }
